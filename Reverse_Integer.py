@@ -52,8 +52,8 @@ class Solution:
         b = x
 
         returnvalue = ''
-        
-        while int(b/10) > 0:
+
+        while int(b / 10) > 0:
             a = b % 10
             returnvalue = str(returnvalue) + str(a)
             b = int(b / 10)
